@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'todo-list';
+  title: string = 'todo-list';
+  tasks: string[] = [
+    "Visit Brook",
+    "Call Brook",
+    "Take Brook on a date",
+    "Drive to Brook's house",
+    "Talk to Brook"
+  ];
 }
